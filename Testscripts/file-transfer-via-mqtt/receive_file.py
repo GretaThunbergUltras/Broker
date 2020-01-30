@@ -28,7 +28,7 @@ import hashlib
 import paho.mqtt.client as mqtt
 
 
-HOST = "LOCALHOST"
+HOST = "Broker"
 PORT = 1883
 SUBTOPIC = "/file/#"
 PUBTOPIC = SUBTOPIC+"/status"
