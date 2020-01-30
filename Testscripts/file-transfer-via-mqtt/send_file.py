@@ -28,7 +28,7 @@ import paho.mqtt.client as mqtt
 
 
 #HOST = "LOCALHOST"
-HOST = "192.168.178.45"
+HOST = "192.168.178.53"
 PORT = 1883
 PUBTOPIC = "/file"
 SUBTOPIC = PUBTOPIC+"/status"

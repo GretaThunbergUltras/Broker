@@ -3,20 +3,15 @@
 from picamera import PiCamera
 from time import sleep
 import base64
-import mqtt_photo
-import convert_to_base64
-import send_file
-import mqtt_delete
+from mqtt_photo import *
+from convert_to_base64 import *
+from send_file import *
+from mqtt_delete import *
 import os
 
-take_picture()
-convert_to_base64()
-save_to_textfile()
-send_textfile()
-delete_textfile()
-delete_picture()
-
-
-
-
-
+mqtt_photo.take_picture()
+encoded= convert_to_base64.convert_to_base64()
+convert_to_base64.save_to_textfile(encoded)
+send_file.send_textfile()
+mqtt_delete.delete_textfile()
+mqtt_delete.delete_picture()

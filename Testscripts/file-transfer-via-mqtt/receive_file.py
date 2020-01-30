@@ -30,7 +30,7 @@ import paho.mqtt.client as mqtt
 
 HOST = "LOCALHOST"
 PORT = 1883
-SUBTOPIC = "/file"
+SUBTOPIC = "/file/#"
 PUBTOPIC = SUBTOPIC+"/status"
 TEMPDIR = "temp"
 

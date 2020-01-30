@@ -23,5 +23,5 @@ stopwatch(4)
 #save as
 camera.capture('/home/pi/Pictures/picture.jpg')
 camera.stop_preview()
-print("Image captured")
+print(">> Image captured")
 
