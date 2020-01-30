@@ -1,4 +1,4 @@
-!/usr/bin/env python
+#!/usr/bin/env python
 
 from picamera import PiCamera
 from time import sleep
@@ -17,7 +17,7 @@ print("Image captured")
 
 ########################## Teilprogramme aufrufen
 #convert pic into base64
-encoded = base64.b64encode(open("test.jpg", "rb").read())
+encoded = base64.b64encode(open("/home/pi/Pictures/picture.jpg", "rb").read())
 print(encoded)
 
 #write pic.base64 into txt
@@ -58,7 +58,7 @@ import paho.mqtt.client as mqtt
 
 
 #HOST = "LOCALHOST"
-HOST = "192.168.178.45"
+HOST = "Broker"
 PORT = 1883
 PUBTOPIC = "/file"
 SUBTOPIC = PUBTOPIC+"/status"
@@ -209,5 +209,3 @@ if os.path.exists("test.txt"):
   print("Deleted textfile")
 else:
   print("The textfile does not exist") 
-
-
