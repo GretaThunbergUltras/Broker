@@ -1,7 +1,8 @@
 # MQTT-Pi-Project
 ## Netzwerk zur Datenerhebung/-speicherung/-verwaltung
 
-![Alt text](/Images/test.png?raw=true "Title")
+![Programmablaufplan]()
+
 
 ### HowTo:
 - Subscriber Script starten: `sudo python mqtt_subscriber.py`
