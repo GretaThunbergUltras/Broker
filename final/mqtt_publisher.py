@@ -8,24 +8,31 @@ from botlib.broker import Broker
 MQTT_SERVER = "localhost"
 MQTT_PATH = "test_channel"
 
-#const_str_date = "Date: "
-#var_time = time.strftime("%d.%m.%Y %H:%M:%S")
-#publish.single(MQTT_PATH,const_str_date + var_time, hostname=MQTT_SERVER)
-#!/usr/bin/env python
-
-
+def stopwatch(seconds):
+    start = time.time()
+    time.clock()    
+    elapsed = 0
+    while elapsed < seconds:
+        elapsed = time.time() - start
+        print("%2d" %  (elapsed + 1))
+        time.sleep(1)
 
 camera = PiCamera()
 camera.start_preview()
-#time to focus
-sleep(5)
+
+stopwatch(4)
 
 broker = Broker('guenter')
 buff=BytesIO()
+
 camera.capture(buff, format = 'jpeg')
+print("capture...")
+
 buff.seek(0)
 broker.send_file(MQTT_PATH, buff.read())
+print("send...")
+
 camera.stop_preview()
-print("Image captured")
 print("DONE")
+
 
