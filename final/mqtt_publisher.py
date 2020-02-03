@@ -31,7 +31,6 @@ broker = Broker('guenter')
 buff=BytesIO()
 
 camera.capture(buff, format = 'jpeg')
-print(buff)
 print("capture...")
 
 buff.seek(0)

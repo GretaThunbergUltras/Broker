@@ -1,0 +1,1 @@
+sudo mount -t exfat -o utf8,uid=pi,pid=pi,noatime /dev/sda1 /media/exter
