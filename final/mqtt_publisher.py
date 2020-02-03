@@ -5,7 +5,7 @@ from time import sleep
 from io import BytesIO
 from botlib.broker import Broker
 
-MQTT_SERVER = "localhost"
+MQTT_SERVER = "Broker"
 MQTT_PATH = "test_channel"
 
 def stopwatch(seconds):
@@ -20,12 +20,14 @@ def stopwatch(seconds):
 camera = PiCamera()
 camera.start_preview()
 
-stopwatch(4)
+#stopwatch(4)
+sleep(5)
 
 broker = Broker('guenter')
 buff=BytesIO()
 
 camera.capture(buff, format = 'jpeg')
+print(buff)
 print("capture...")
 
 buff.seek(0)
@@ -34,5 +36,6 @@ print("send...")
 
 camera.stop_preview()
 print("DONE")
+
 
 
