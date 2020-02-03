@@ -4,7 +4,7 @@ from picamera import PiCamera
 from time import sleep
 import time
 
-def take_photo():	
+	
 	def stopwatch(seconds):
     		start = time.time()
     		time.clock()    
