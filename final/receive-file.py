@@ -1,21 +1,30 @@
+# Imports
 import base64
 import time
-
 from botlib.broker import Broker
 
+# setup counter for images
+readNumber = open("number.txt").read()
+type(readNumber)
+number = int(readNumber)
+number = number + 1
 
+file = open("number.txt", "w")
+file.write(NumberOfPic)
+file.close()
+
+# setup decoding and writing image
 def callback(cid, userdata, msg, ):
     print('received something')
-    #print(str(msg.payload))
+    ##print(str(msg.payload))
     try:
-        with open('image.jpeg', 'wb') as out:
-            print("Image saved")
+        with open('/media/extern/Images/image' + NumberOfPic + 'jpeg', 'wb') as out:
             temp = str(msg.payload)[2:-1]
-            print("Image saved "+str(len(temp)))
+            ##print("Image saved "+str(len(temp)))
             temp2 = base64.b64decode(temp)
-            print("Image saved")
             out.write(temp2)
             print("Image saved")
+            
     except Exception as e:
         print("fail")
         print(e)
@@ -24,7 +33,8 @@ subs = {
     'test_channel': callback
 }
 
-b = Broker('jockel', host='gruppe11', subscriptions=subs)
+# hostname: hostname of publishing client
+b = Broker('jockel', host='localhost', subscriptions=subs)
 
 while True:
     time.sleep(1)
