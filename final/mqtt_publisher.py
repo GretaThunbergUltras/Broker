@@ -20,8 +20,8 @@ def stopwatch(seconds):
 camera = PiCamera()
 camera.start_preview()
 
-#stopwatch(4)
-sleep(5)
+stopwatch(4)
+
 
 broker = Broker('guenter')
 buff=BytesIO()
