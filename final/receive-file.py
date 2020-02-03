@@ -6,6 +6,7 @@ from botlib.broker import Broker
 def callback(cid, userdata, msg):
     with open('image.jpeg', 'wb') as out:
         out.write(base64.b64decode(msg.payload))
+        print("Image saved")
 
 subs = {
     'test_channel': callback
