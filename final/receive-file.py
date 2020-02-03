@@ -4,7 +4,7 @@ import time
 from botlib.broker import Broker
 
 # setup counter for images
-"""anzahl = open("number.txt").read()
+anzahl = open("number.txt").read()
 print(anzahl)
 type(anzahl)
 nummer=int(anzahl)
@@ -14,7 +14,7 @@ bennenung= str(nummer)
 
 file=open("number.txt","w")
 file.write(bennenung)
-file.close()"""
+file.close()
 
 
 
@@ -23,8 +23,8 @@ def callback(cid, userdata, msg, ):
     print('received something')
     ##print(str(msg.payload))
     try:
-        #with open('/media/extern/Images/image' + NumberOfPic + 'jpeg', 'wb') as out:
-        with open('test.jpeg', 'wb') as out:
+        with open('/media/extern/Images/image' + NumberOfPic + 'jpeg', 'wb') as out:
+        #with open('test.jpeg', 'wb') as out:
 
             temp = str(msg.payload)[2:-1]
             ##print("Image saved "+str(len(temp)))
