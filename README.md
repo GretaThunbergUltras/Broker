@@ -4,7 +4,7 @@
 ![Programmablaufplan](https://i.ibb.co/HzTDQ8t/Programmablaufplan.png)
 
 
-### HowTo:
+## HowTo:
 
 #### Festplatte:
 - Festplatte einbinden:  `sudo mount -t exfat -o utf8,uid=pi,pid=pi,noatime /dev/sda1 /media/extern`
@@ -18,8 +18,8 @@
 
 #### send end recive file
 
-- Subscriber Script starten: `sudo python3 send_file.py`
-- Publisher Script ausführen:  `sudo python3 recive_file.py`
+- Subscriber Script starten: `sudo python3 recive_file.py`
+- Publisher Script ausführen:  `sudo python3 send_file.py`
 
 ### Links:
 - [Funkkommunikation zwischen Raspberry Pi’s mittels MQTT Broker/Client](https://tutorials-raspberrypi.de/datenaustausch-raspberry-pi-mqtt-broker-client/)
