@@ -39,7 +39,7 @@ subs = {
 }
 
 # hostname: hostname of publishing client
-b = Broker('jockel', host='broker', subscriptions=subs)
+b = Broker('jockel', host='gruppe11', subscriptions=subs)
 
 while True:
     time.sleep(1)
