@@ -19,18 +19,18 @@ Fahrende Robocars sollen ihre aufgenommenen Bilder nicht lokal speichern, sonder
 - recive_file auf Broker starten: `sudo python3 recive_file.py`
 - send_file auf Client (Gruppe11) starten:  `sudo python3 send_file.py`
 
-### Links:
+#### Links:
 - [Funkkommunikation zwischen Raspberry Pi’s mittels MQTT Broker/Client](https://tutorials-raspberrypi.de/datenaustausch-raspberry-pi-mqtt-broker-client/)
 
-### Ideen für die Zukunft:
+#### Ideen für die Zukunft:
 - [Webinterface zu Statusabfrage](https://github.com/fabaff/mqtt-panel)
 
 
-## Autoren:
+### Autoren:
 * __[Mercedes Doert](https://github.com/CEDY20)__
 * __[Kris Myslowski](https://github.com/Nutzernam3)__
 
-## Großes Danke an:
+### Großes Danke an:
 * __[Laurin Kirbach](https://github.com/witling)__
 für die Botlib und die Rettung vor der Depression.
 * __[Elias Hörner](https://github.com/eliaspr)__
