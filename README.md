@@ -17,7 +17,7 @@ Fahrende Robocars sollen ihre aufgenommenen Bilder nicht lokal speichern, sonder
 - Branch aktualisieren: `git pull origin witling-desing`
 - botlib installieren:  `sudo ./install`
 
-#### send end recive file
+#### send and recive file:
 - recive_file auf Broker starten: `sudo python3 recive_file.py`
 - send_file auf Client (Gruppe11) starten:  `sudo python3 send_file.py`
 
