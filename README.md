@@ -2,7 +2,7 @@
 ## Netzwerk zur Datenerhebung/-speicherung/-verwaltung
 
 ### Beschreibung:
-Fahrende Robocars sollen ihre aufgenommenen Bilder nicht lokal speichern, sondern über eine MQTT-Verbindung an den Broker schicken welcher diese auf einem externen Speichermedium ablegt. Die gesammelten Daten sollen einer späteren KI zum "lernen" dienen (Objekterkennung/mechinal learning).
+Fahrende Robocars sollen ihre aufgenommenen Bilder nicht lokal speichern, sondern über eine MQTT-Verbindung an den Broker schicken, welcher diese auf einem externen Speichermedium ablegt. Die gesammelten Daten sollen einer späteren KI zum "lernen" dienen (Objekterkennung/mechinal learning).
 
 ## HowTo:
 
@@ -27,7 +27,7 @@ Fahrende Robocars sollen ihre aufgenommenen Bilder nicht lokal speichern, sonder
 
 
 ### Autoren:
-* __[Mercedes Doert](https://github.com/CEDY20)__
+* __[Mercedes Doerr](https://github.com/CEDY20)__
 * __[Kris Myslowski](https://github.com/Nutzernam3)__
 
 ### Großes Danke an:
