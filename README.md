@@ -18,13 +18,29 @@ Fahrende Robocars sollen ihre aufgenommenen Bilder nicht lokal speichern, sonder
 - botlib installieren:  `sudo ./install`
 
 #### send end recive file
-- Subscriber Script starten: `sudo python3 recive_file.py`
-- Publisher Script ausführen:  `sudo python3 send_file.py`
+- recive_file auf Broker starten: `sudo python3 recive_file.py`
+- send_file auf Client (Gruppe11) starten:  `sudo python3 send_file.py`
 
 ### Links:
 - [Funkkommunikation zwischen Raspberry Pi’s mittels MQTT Broker/Client](https://tutorials-raspberrypi.de/datenaustausch-raspberry-pi-mqtt-broker-client/)
 
 ### Ideen für die Zukunft:
 - [Webinterface zu Statusabfrage](https://github.com/fabaff/mqtt-panel)
+
+
+## Autoren:
+* __[Mercedes Doert](https://github.com/CEDY20)__
+* __[Kris Myslowski](https://github.com/Nutzernam3)__
+
+## Großes Danke an:
+* __[Laurin Kirbach](https://github.com/witling)__
+für die Botlib und die Rettung vor der Depression.
+* __[Elias ](https://github.com/eliaspr)__
+für die Bereitschaft zum Testen und Fehlerbehebung.
+
+
+
+
+
 
 
