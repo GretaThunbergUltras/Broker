@@ -25,7 +25,7 @@ Fahrende Robocars sollen ihre aufgenommenen Bilder nicht lokal speichern, sonder
 ### Links:
 - [Funkkommunikation zwischen Raspberry Pi’s mittels MQTT Broker/Client](https://tutorials-raspberrypi.de/datenaustausch-raspberry-pi-mqtt-broker-client/)
 
-### Ideen:
+### Ideen für die Zukunft:
 - [Webinterface zu Statusabfrage](https://github.com/fabaff/mqtt-panel)
 
 
