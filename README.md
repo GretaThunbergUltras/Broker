@@ -4,9 +4,8 @@
 ### Beschreibung:
 Fahrende Robocars sollen ihre aufgenommenen Bilder nicht lokal speichern, sondern über eine MQTT-Verbindung an den Broker schicken welcher diese auf einem externen Speichermedium ablegt. Die gesammelten Daten sollen einer späteren KI zum "lernen" dienen (Objekterkennung/mechinal learning).
 
-### Programmablauf:
+### Programmablaufplan:
 (Bild einfügen)
-
 ## HowTo:
 
 #### Festplatte:
