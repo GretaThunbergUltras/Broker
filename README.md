@@ -6,7 +6,7 @@ Fahrende Robocars sollen ihre aufgenommenen Bilder nicht lokal speichern, sonder
 
 ### Programmablaufplan:
 ![Programmablaufplan](https://i.ibb.co/w605N3B/Broker.png)
-(Bild einfügen)
+
 ## HowTo:
 
 #### Festplatte:
