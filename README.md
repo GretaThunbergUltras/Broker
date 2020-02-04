@@ -27,7 +27,7 @@ Fahrende Robocars sollen ihre aufgenommenen Bilder nicht lokal speichern, sonder
 
 
 ### Autoren:
-* __[Mercedes Doerr](https://github.com/CEDY20)__
+* __[Mercedes Dörr](https://github.com/CEDY20)__
 * __[Kris Myslowski](https://github.com/Nutzernam3)__
 
 ### Großes Danke an:
