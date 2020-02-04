@@ -35,7 +35,7 @@ Fahrende Robocars sollen ihre aufgenommenen Bilder nicht lokal speichern, sonder
 ## Großes Danke an:
 * __[Laurin Kirbach](https://github.com/witling)__
 für die Botlib und die Rettung vor der Depression.
-* __[Elias ](https://github.com/eliaspr)__
+* __[Elias Hörner](https://github.com/eliaspr)__
 für die Bereitschaft zum Testen und Fehlerbehebung.
 
 
